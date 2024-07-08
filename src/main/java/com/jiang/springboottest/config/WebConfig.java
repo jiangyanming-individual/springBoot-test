@@ -3,8 +3,7 @@ package com.jiang.springboottest.config;
 import com.jiang.springboottest.filter.MyFilter;
 import com.jiang.springboottest.filter.MyListener;
 import com.jiang.springboottest.interceptor.MyInterceptor;
-import jakarta.annotation.Resource;
-import jakarta.servlet.Filter;
+
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletListenerRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -12,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import javax.annotation.Resource;
 import java.util.EventListener;
 
 /**
