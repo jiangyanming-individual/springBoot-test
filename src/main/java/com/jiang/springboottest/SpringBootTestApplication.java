@@ -6,7 +6,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
-@ServletComponentScan //开启过滤器
+@ServletComponentScan(basePackages = "com.jiang.springboottest.filter") //开启过滤器
 @EnableCaching
 public class SpringBootTestApplication {
 
